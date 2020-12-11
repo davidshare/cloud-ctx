@@ -1,0 +1,35 @@
+{
+  "name": "cloudctx",
+  "version": "1.0.0",
+  "description": "An app to help you switch between your app context",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidshare/cloudctx.git"
+  },
+  "keywords": [
+    "cloud",
+    "context",
+    "aws",
+    "kubernetes"
+  ],
+  "author": "David Essien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidshare/cloudctx/issues"
+  },
+  "homepage": "https://github.com/davidshare/cloudctx#readme",
+  "devDependencies": {
+    "electron": "^11.0.4"
+  },
+  "dependencies": {
+    "electron-rebuild": "^2.3.4",
+    "electron-tools": "^2.4.2",
+    "node-pty": "^0.9.0",
+    "xterm": "^4.9.0"
+  }
+}
